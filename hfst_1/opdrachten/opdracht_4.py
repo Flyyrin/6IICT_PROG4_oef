@@ -11,8 +11,11 @@ dict = {
         }
     }
 }
+print(dict["belgie"]["provincie"]["weetjes"]["gouverneur"])
+dict["belgie"]["provincie"]["informatie"] = dict["belgie"]["provincie"].pop("weetjes")
+print(dict["belgie"]["provincie"]["informatie"])
 
-""" Niveau 2 """
+""" Niveau 3 """
 extra_info = [  ["mannen", 49.77], 
                 ["vrouwen", 50.23], 
                 ["hoofdstad", "hasselt"] ]

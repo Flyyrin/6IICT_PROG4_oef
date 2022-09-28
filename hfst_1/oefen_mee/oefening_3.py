@@ -8,15 +8,18 @@ print( fruitmand.items() )
 
 """
 Wat zijn de gelijkenissen van deze waarden met lijsten? Wat zijn de verschillen?
+Allemaal waardes van de dict
 
 """
 
 """
 Zijn deze waarden effectief lijsten? Hoe kan je dit testen?
+Het zijn lijsten met tuples erin
 
 """
 
 """
 Indien nee, is het mogelijk om deze waarden naar lijsten om te vormen?
+ja met list function
 
 """

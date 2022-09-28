@@ -15,3 +15,18 @@ dict_dict = {
     2: {'naam': 'Marie', 'leeftijd': 22, 'geslacht': 'Vrouw'},
     3: {'naam': 'Kurt',  'leeftijd': 23}
 }
+
+for lijst in lijst_lijst:
+    for int in lijst:
+        print(int)
+
+for dict in lijst_dict:
+    for key, value in dict.items():
+        print(key)
+        print(value)
+
+for key, value in dict_dict.items():
+    for key1, value1 in value.items():
+        print(key)
+        print(key1)
+        print(value1)
