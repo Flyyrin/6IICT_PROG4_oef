@@ -1,0 +1,50 @@
+[
+    {
+        "Country": "Belgium",
+        "Cases": 4511590,
+        "Status": "confirmed",
+        "Date": "2022-09-18"
+    },
+    {
+        "Country": "Belgium",
+        "Cases": 4511590,
+        "Status": "confirmed",
+        "Date": "2022-09-19"
+    },
+    {
+        "Country": "Belgium",
+        "Cases": 4517212,
+        "Status": "confirmed",
+        "Date": "2022-09-20"
+    },
+    {
+        "Country": "Belgium",
+        "Cases": 4517212,
+        "Status": "confirmed",
+        "Date": "2022-09-21"
+    },
+    {
+        "Country": "Belgium",
+        "Cases": 4525931,
+        "Status": "confirmed",
+        "Date": "2022-09-22"
+    },
+    {
+        "Country": "Belgium",
+        "Cases": 4525931,
+        "Status": "confirmed",
+        "Date": "2022-09-23"
+    },
+    {
+        "Country": "Belgium",
+        "Cases": 4525931,
+        "Status": "confirmed",
+        "Date": "2022-09-24"
+    },
+    {
+        "Country": "Belgium",
+        "Cases": 4525931,
+        "Status": "confirmed",
+        "Date": "2022-09-25"
+    }
+]
