@@ -1,21 +1,24 @@
 """ Niveau 1 & 2
 Wat gaat hier mis?
+IndexError omdat de gegeven index niet betaat in de lijst
 """
 fruit_lijst = ["Appel", "Banaan", "Meloen", "Mango", "Druif"]
-getal = int( input("Hoeveel fruit uit de lijst wil je printen: ") )
 
-for i in range(getal):
-    fruit = fruit_lijst[i]
-    print(fruit)
+def addFruit():
+    fruit = input("Element aan lijst toevoegen: ")
+        
+    if fruit == "":
+        return # Loop stopt wanneer gebruiker een lege string ingeeft.
+    else:
+        fruit_lijst.append(fruit)
+        return
 
-
-""" Niveau 3 (haal uit commentaar) """
-# while True:
-#     fruit = input("Element aan lijst toevoegen: ")
-    
-#     if fruit == "":
-#         break # Loop stopt wanneer gebruiker een lege string ingeeft.
-#     else:
-#         fruit_lijst.append(fruit)
-
-# print(fruit_lijst)
+while True:
+    getal = int( input("Hoeveel fruit uit de lijst wil je printen: ") )
+    for i in range(getal):
+        try:
+            fruit = fruit_lijst[i]
+            print(fruit)
+        except:
+            pass
+    addFruit()
