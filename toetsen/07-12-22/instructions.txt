@@ -1,0 +1,5 @@
+Instructions:
+Maak oefening1.py en oefening2.py. Instructies staan in de bestanden zelf. 
+Voor oefening1.py heb je oefening1.json nodig.
+
+Upload de bestanden wanneer je klaar bent.

@@ -1,0 +1,18 @@
+{
+    "naam": "Buffett",
+    "voornaam": "Warren",
+    "geboorteplaats": "Omaha, VS",
+    "geboortedatum": "03-08-1930",
+    "hobbys": ["lopen", "lezen", "kaarten", "ukelele"],
+
+    "bedrijf": "Berkshire Hathaway",
+    "functie": "Zakenman/Investeerder",
+
+    "vermogen_in_miljard": {
+        "2017":75.6,
+        "2018":84,
+        "2019":82.5,
+        "2020":67.5,
+        "2021":96
+    }
+}
